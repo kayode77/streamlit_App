@@ -12,6 +12,18 @@ st.set_page_config(
     page_icon='⏳',
     layout='wide')
 st.header('Dashboard Display of Population and GDP Rate')
+st.markdown("""
+<style>
+.css-opdfv4.e1ewe7hr3
+{
+  visibility:hidden;
+}
+.css-lnea4b.e1g8pov61         
+{
+  visibility:hidden;
+}
+</style>
+""",unsafe_allow_html=True)
 df = pd.read_csv('PRO.csv')
 
 # Adding background to the side bar
